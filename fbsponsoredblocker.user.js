@@ -40,8 +40,6 @@ function block(story) {
 }
 
 function process() {
-    // Locate the stream every iteration to allow for FB SPA navigation which
-    // replaces the stream element
     var stream = document.querySelector(streamSelector);
     if(!stream) {
         return;
